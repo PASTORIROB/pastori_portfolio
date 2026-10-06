@@ -6,10 +6,10 @@ export const profile = {
   location: 'Florida',
   headline: 'I turn banking and market data into decisions.',
   blurb:
-    'Twelve-plus years across BNY Mellon–Pershing, Cowen and Convergex, now leading financial crime risk analytics. I build in Python and SQL, and I like models that survive contact with real data.',
+    'Twelve-plus years across BNY Mellon–Pershing, Cowen and Convergex, now leading financial crime risk analytics. Lead Financial & Data Analytics Specialist | Python & SQL | Model Risk, Validation & Empirical Performance',
   email: 'rpastori@me.com',
   linkedin: 'https://www.linkedin.com/in/rpastori/',
-  github: 'https://github.com/your-handle',
+  github: 'https://github.com/PASTORIROB',
   resume: '/Rob_Pastori_Resume.pdf',
   headshot: '/headshot.jpeg',
 };

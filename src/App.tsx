@@ -116,11 +116,6 @@ export default function App() {
           <Headshot />
         </section>
 
-        <section id="live" className="wrap sec">
-          <h2>Live from Florida</h2>
-          <SurfReport />
-        </section>
-
         <section id="skills" className="wrap sec">
           <h2>What I work with</h2>
           <div className="skill-grid">
@@ -144,6 +139,11 @@ export default function App() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section id="live" className="wrap sec">
+          <h2>Live from Florida</h2>
+          <SurfReport />
         </section>
 
         <section id="ask" className="wrap sec">
