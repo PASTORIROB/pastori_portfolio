@@ -8,7 +8,7 @@
     "build": "vite build",
     "typecheck": "tsc --noEmit",
     "cf:dev": "npm run build && wrangler pages dev dist",
-    "cf:deploy": "npm run build && wrangler pages deploy dist --project-name=rob-portfolio --branch=main"
+    "cf:deploy": "npm run build && wrangler pages deploy dist --project-name=pastori-portfolio --branch=main"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4",
