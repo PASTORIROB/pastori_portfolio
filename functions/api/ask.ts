@@ -40,7 +40,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
       return json({ error: 'The assistant is not set up yet. Please email Rob.' }, 503);
     }
 
-    const sql = neon(env.DATABASE_URL);
+    const sql = neon(env.DATABASE_URL.trim());
     const ipHash = await sha256(request.headers.get('CF-Connecting-IP') ?? 'unknown');
 
     // Cost guards: 5 questions per visitor per hour, 200 total per day. Fails closed if the database is down.
