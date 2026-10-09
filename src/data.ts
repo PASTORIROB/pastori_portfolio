@@ -59,3 +59,18 @@ export const suggestions = [
   'Tell me about the SEC dilution project.',
   'What does Rob do in AML analytics?',
 ];
+
+export const stats = [
+  { value: 12, suffix: '+', label: 'Years in finance and banking' },
+  { value: 3, label: 'Firms: BNY Mellon–Pershing, Cowen, Convergex' },
+  { value: projects.length, label: 'Featured projects' },
+  { text: 'Series 7', label: 'FINRA license' },
+];
+
+export const pipeline = [
+  { title: 'Ingest', text: 'EDGAR filings and high-volume transaction data.' },
+  { title: 'Extract', text: 'Claude and Pydantic turn messy text into validated features.' },
+  { title: 'Validate', text: 'Isolated folds so no future information leaks into training.' },
+  { title: 'Track', text: 'MLflow keeps every experiment reproducible.' },
+  { title: 'Tune', text: 'Thresholds and alert analytics that cut noise, not coverage.' },
+];

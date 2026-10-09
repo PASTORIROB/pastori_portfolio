@@ -9,4 +9,5 @@
 6. Set a monthly spend limit on the Anthropic key's workspace before launch.
 7. Enable Web Analytics: Cloudflare dashboard > Analytics & Logs > Web Analytics, add the site.
 8. Deploy: create a Pages project from the repo (build `npm run build`, output `dist`), or `npm run cf:deploy`.
+Troubleshooting the Ask box: open `/api/health` on the deployed site. It reports whether `ANTHROPIC_API_KEY` and `DATABASE_URL` are set, whether the Anthropic key is accepted, and whether the Neon table exists (values are never shown).
 Never commit secrets. For local testing put them in `.dev.vars` (git-ignored).
